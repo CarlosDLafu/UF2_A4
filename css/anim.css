@@ -1,0 +1,17 @@
+.row {
+    justify-content: center!important;
+}
+
+#cohete {
+
+    transform:rotate(-45deg);
+    animation-name: animcohete;
+    animation-duration: 7s;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes animcohete {
+    from {margin-top: 35em;}
+    to {margin-top: 0;}
+}
